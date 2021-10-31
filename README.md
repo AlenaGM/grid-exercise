@@ -1,2 +1,2 @@
-# Grid-Exercise
-Упражнение на Grid. 6-ая неделя обучения в #ITGIRLSCHOOL
+# Layout-Exercise
+ Тренировочный макет 5й недели обучения в #ITGIRLSCHOOL
