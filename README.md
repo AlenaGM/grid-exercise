@@ -4,7 +4,7 @@ A basic Grid-layout made as an exercise on 6th week of studying at [ITGirlSchool
 
 
 <br>
-<img width="45%" alt="HomePage" src="../main/captureweb.jpeg">
+<img width="45%" alt="screen capture" src="../main/captureweb.jpeg">
 
 ## Demo
 [Grid-Exercise]
