@@ -16,7 +16,7 @@ A basic Grid-layout made as an exercise on 6th week of studying at [ITGirlSchool
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Grid-Layout<br>
 
 <br><br> 
-\* _Weeks 6 Exercise for [ITGirlSchool]_ 
+\* _Week 6 Exercise for [ITGirlSchool]_ 
   
 
    [ITGirlSchool]: <https://itgirlschool.com/en>
