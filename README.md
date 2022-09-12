@@ -1,6 +1,4 @@
-# Layout-Exercise
- Тренировочный макет 6й недели обучения в #ITGIRLSCHOOL
-# Flexbox-Exercise
+# Grid-Exercise
 
 A basic Flexbox-layout made as an exercise on 5th week of studying at [ITGirlSchool].
 
@@ -9,17 +7,17 @@ A basic Flexbox-layout made as an exercise on 5th week of studying at [ITGirlSch
 <img width="45%" alt="HomePage" src="../main/captureweb.jpeg">
 
 ## Demo
-[Flexbox-Exercise]
+[Grid-Exercise]
 
 ## Tech stack
 
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; HTML5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; CSS3<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Flexbox<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Grid-Layout<br>
 
 <br><br> 
-\* _Weeks 5 Exercise for [ITGirlSchool]_ 
+\* _Weeks 6 Exercise for [ITGirlSchool]_ 
   
 
    [ITGirlSchool]: <https://itgirlschool.com/en>
-   [Flexbox-Exercise]: <https://alenagm.github.io/Flexbox-Exercise/>
+   [Grid-Exercise]: <https://alenagm.github.io/Grid-Exercise/>
