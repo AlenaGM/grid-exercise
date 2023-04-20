@@ -1,129 +1,132 @@
+body {
+  min-width: 350px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 /*=================Позиционирование==================*/
 .grid-container {
-    display: grid;
-    grid-template-columns: 1.3fr 1.3fr 0.4fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "header header header header"
-        "main-content main-content aside aside"
-        "main-content main-content aside aside"
-        "main-content main-content aside aside"
-        "footer footer footer footer";
+  display: grid;
+  grid-template-columns: 1.3fr 1.3fr 0.4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header header header"
+    "main-content main-content aside aside"
+    "main-content main-content aside aside"
+    "main-content main-content aside aside"
+    "footer footer footer footer";
 }
 
 .header {
-    grid-area: header;
+  grid-area: header;
 }
 
 .main-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1.6fr 0.7fr 0.7fr;
-    gap: 5px 5px;
-    grid-template-areas:
-        "main-text main-text"
-        "chapter-1 chapter-2"
-        "chapter-3 chapter-3";
-    grid-area: main-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.6fr 0.7fr 0.7fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    "main-text main-text"
+    "chapter-1 chapter-2"
+    "chapter-3 chapter-3";
+  grid-area: main-content;
 }
 
 .main-text {
-    grid-area: main-text;
+  grid-area: main-text;
 }
 
 .chapter-1 {
-    grid-area: chapter-1;
+  grid-area: chapter-1;
 }
 
 .chapter-2 {
-    grid-area: chapter-2;
+  grid-area: chapter-2;
 }
 
 .chapter-3 {
-    grid-area: chapter-3;
+  grid-area: chapter-3;
 }
 
 .aside {
-    grid-area: aside;
+  grid-area: aside;
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 5px 5px;
-    grid-template-areas:
-        "section-1 section-2 section-3 section-4";
-    grid-area: footer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 5px 5px;
+  grid-template-areas: "section-1 section-2 section-3 section-4";
+  grid-area: footer;
 }
 
 .section-1 {
-    grid-area: section-1;
+  grid-area: section-1;
 }
 
 .section-2 {
-    grid-area: section-2;
+  grid-area: section-2;
 }
 
 .section-3 {
-    grid-area: section-3;
+  grid-area: section-3;
 }
 
 .section-4 {
-    grid-area: section-4;
+  grid-area: section-4;
 }
 
 /*===================Оформление=====================*/
 .grid-container {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .header {
-    background-color: #545B6D;
+  background-color: #545b6d;
 }
 
 .main-content {
-    background-color: #B8B3A5;
+  background-color: #b8b3a5;
 }
 
 .chapter-1,
 .chapter-2,
 .chapter-3 {
-    background-color: #808080;
+  background-color: #808080;
 }
 
-
 .aside {
-    background-color: #B0A1A4;
+  background-color: #b0a1a4;
 }
 
 .footer {
-    background-color: #545B6D;
+  background-color: #545b6d;
 }
 
 .section-1,
 .section-2,
 .section-3,
 .section-4 {
-    background-color: #727D91;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  background-color: #727d91;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h1,
 h2,
 p {
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    color: rgb(53, 52, 52);
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(53, 52, 52);
 }
 
 h1 {
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 36px;
-    text-align: center;
-    color: darkgray;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: darkgray;
 }
