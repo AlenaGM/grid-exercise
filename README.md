@@ -1,6 +1,6 @@
 # Grid-Exercise
 
-A basic Grid Layout made as an exercise on 6th week of studying at [ITGirlSchool].
+A basic grid-layout made as an exercise on 6th week of studying at [ITGirlSchool].
 
 
 <br>
