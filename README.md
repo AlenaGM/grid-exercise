@@ -20,4 +20,4 @@ A basic grid-layout, exercise on 6th week of studying at [ITGirlSchool].
   
 
    [ITGirlSchool]: <https://itgirlschool.com/en>
-   [Grid-Exercise]: <https://alenagm.github.io/Grid-Exercise/>
+   [Grid-Exercise]: <https://alenagm.github.io/grid-exercise/>
