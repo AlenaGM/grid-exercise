@@ -12,7 +12,7 @@ A basic grid layout made as an exercise in the 6th week of studying at [ITGirlSc
 
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; HTML5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; CSS3<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Css-Grid<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; CSS-Grid<br>
 
 <br><br> 
 \* _Week 6 Exercise for [ITGirlSchool]_ 
