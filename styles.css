@@ -1,0 +1,88 @@
+body {
+  min-width: 350px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #545b6d;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(53, 52, 52);
+}
+
+.grid-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #545b6d;
+  display: grid;
+  grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  padding: 8px;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #b8b3a5;
+}
+
+.main-content {
+  grid-column: 1;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  padding: 8px;
+}
+
+.chapters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.chapter-big {
+  grid-column: span 2;
+}
+
+.main-content article {
+  background-color: #808080;
+  padding: 8px;
+}
+
+.aside {
+  grid-column: 2;
+  background-color: #b0a1a4;
+}
+
+.footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  padding: 8px;
+  gap: 8px;
+}
+
+.footer section {
+  background-color: #727d91;
+  padding: 8px;
+}
+
+h1 {
+  font-size: 36px;
+  color: darkgray;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
